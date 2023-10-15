@@ -1,16 +1,9 @@
-# This is a sample Python script.
+# BMI 수치 구하기
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+w = float(input("몸무게 입력(kg): "))
+h = float(input("키 입력(m): "))
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('nf')
+bmi = w/(h*h)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("BMI 지수: ",round(bmi,2))
